@@ -9,7 +9,7 @@
   
   <default remote="aosp" revision="refs/tags/android-14.0.0_r27" sync-j="4"/>
   
-  <project name="RKTools" remote="rk" revision="f5ea2cc2c9651c1fe87dad0f79beb0f47ebbb81f" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
+  <project name="RKTools" remote="rk" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="android/apps/RkAuth" path="packages/apps/RkAuth" remote="rk29" revision="ace7e4b3848141f82efdb01ec622cda3d89d7bb2" upstream="refs/tags/android-14.0-mid-rkr6" dest-branch="refs/tags/android-14.0-mid-rkr6"/>
   <project name="device/google/atv" revision="539c892c563caa41f2e086d1e3b62ca61b684151" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="device,broadcom_pdk,generic_fs,pdk"/>
   <project name="device/sample" revision="3926875d602692fc6c85d3a7b8ec07cc42831040" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
